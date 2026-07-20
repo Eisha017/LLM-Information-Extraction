@@ -42,9 +42,15 @@ This project explores how different prompting strategies affect extraction quali
 
 The application demonstrates how Large Language Models can transform unstructured text into structured information using different prompting strategies.
 
-Workflow:
+CLI workflow:
 
-Input Text → Prompt Selection → Gemini LLM → JSON Extraction → Output File
+1. Select prompting technique
+2. Provide input text file
+3. Gemini extracts structured information
+4. JSON output is generated
+
+![Demo](docs/demo.mp4)
+
 
 
 # 📂 Project Structure
