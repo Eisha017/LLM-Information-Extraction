@@ -194,20 +194,13 @@ The application automatically generates:
 # 📸 Screenshots
 
 ### Terminal Output
-
-(Add screenshot here)
-
----
+docs/Screenshots/extractionsummary.png
 
 ### Project Structure
-
-(Add screenshot here)
-
----
+docs/Screenshots/project structure.png
 
 ### Sample JSON Output
-
-(Add screenshot here)
+docs/Screenshots/opsamples.png
 
 ---
 
@@ -221,6 +214,8 @@ The application automatically generates:
 - OCR Integration
 - Docker Deployment
 - REST API
+
+
 
 ---
 
