@@ -15,6 +15,14 @@ Users can select the prompting technique, provide an input text file, and receiv
 
 ---
 
+
+## 🎯 Motivation
+
+Large Language Models can understand unstructured information, but extracting reliable structured data requires careful prompt design.
+
+This project explores how different prompting strategies affect extraction quality.
+
+
 # ✨ Features
 
 - ✅ Zero-shot Prompting
