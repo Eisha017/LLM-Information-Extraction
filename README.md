@@ -29,6 +29,16 @@ Users can select the prompting technique, provide an input text file, and receiv
 
 ---
 
+# Demo 
+# 🎥 Demo
+
+The application demonstrates how Large Language Models can transform unstructured text into structured information using different prompting strategies.
+
+Workflow:
+
+Input Text → Prompt Selection → Gemini LLM → JSON Extraction → Output File
+
+
 # 📂 Project Structure
 
 ```text
@@ -194,13 +204,13 @@ The application automatically generates:
 # 📸 Screenshots
 
 ### Terminal Output
-docs/Screenshots/extractionsummary.png
+![Terminal Output](docs/Screenshots/extractionsummary.png)
 
 ### Project Structure
-docs/Screenshots/project structure.png
+![Terminal Output](docs/Screenshots/project structure.png)
 
 ### Sample JSON Output
-docs/Screenshots/opsamples.png
+![Terminal Output](docs/Screenshots/opsamples.png)
 
 ---
 
