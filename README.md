@@ -37,8 +37,7 @@ This project explores how different prompting strategies affect extraction quali
 
 ---
 
-# Demo 
-# 🎥 Demo
+# WorkFlow
 
 The application demonstrates how Large Language Models can transform unstructured text into structured information using different prompting strategies.
 
