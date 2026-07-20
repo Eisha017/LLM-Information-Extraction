@@ -1,44 +1,38 @@
-# LLM Information Extraction using Prompt Engineering
+# 🤖 LLM Information Extraction using Prompt Engineering
 
 A Python application that extracts structured information from unstructured text using Google's Gemini Large Language Model (LLM).
 
-This project demonstrates practical Prompt Engineering techniques including Zero-shot Prompting, Few-shot Prompting, Delimiters, and Deterministic Generation (Temperature = 0).
+This project demonstrates Prompt Engineering techniques including Zero-shot Prompting, Few-shot Prompting, Delimiters, and Deterministic Generation (Temperature = 0).
 
 ---
 
-## Features
+## 📌 Features
 
-- Extracts structured data from messy text
-- Zero-shot prompting
-- Few-shot prompting
-- Prompt comparison
-- JSON output
+- Zero-shot Prompting
+- Few-shot Prompting
+- Delimiters for clear prompt structure
+- Deterministic JSON generation (Temperature = 0)
+- Extracts:
+  - Name
+  - Company
+  - Job Title
+  - Email
+  - Phone Number
 - Supports multiple input files
-- Uses Gemini API
-- Saves extracted information automatically
+- Saves output as JSON
 
 ---
 
-## Technologies
+## 🛠️ Tech Stack
 
-- Python
+- Python 3
 - Google Gemini API
 - Prompt Engineering
 - python-dotenv
 
 ---
 
-## Information Extracted
-
-- Name
-- Company
-- Job Title
-- Email Address
-- Phone Number
-
----
-
-## Project Structure
+## 📂 Project Structure
 
 ```text
 LLM-Information-Extraction/
@@ -46,42 +40,56 @@ LLM-Information-Extraction/
 ├── app.py
 ├── prompt.py
 ├── fewshot_prompt.py
+├── sample_input.txt
+├── output.json
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── .env.example
+│
 ├── samples/
+│   ├── sample1.txt
+│   ├── sample2.txt
+│   ├── sample3.txt
+│   ├── sample4.txt
+│   └── sample5.txt
+│
 ├── outputs/
+│
 └── docs/
 ```
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
-Clone the repository
+### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Eisha017/LLM-Information-Extraction.git
 ```
 
-Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Create a `.env`
+### 3. Create a `.env` file
 
 ```text
 GEMINI_API_KEY=YOUR_API_KEY
 ```
 
-Run
+### 4. Run the project
 
 ```bash
 python app.py
 ```
 
-Enter the file name when prompted.
+Enter any sample file when prompted.
 
-Example
+Example:
 
 ```
 samples/sample1.txt
@@ -89,7 +97,7 @@ samples/sample1.txt
 
 ---
 
-## Example Input
+## 📥 Example Input
 
 ```
 Hello,
@@ -107,7 +115,7 @@ Phone:
 
 ---
 
-## Example Output
+## 📤 Example Output
 
 ```json
 {
@@ -121,7 +129,7 @@ Phone:
 
 ---
 
-## Prompt Engineering Concepts
+## 🧠 Prompt Engineering Concepts
 
 - Zero-shot Prompting
 - Few-shot Prompting
@@ -131,19 +139,18 @@ Phone:
 
 ---
 
-## Future Improvements
+## 📈 Future Improvements
 
 - Batch processing
-- CSV export
 - PDF document extraction
 - Resume parsing
 - OCR integration
-- Web interface using Streamlit
+- Streamlit Web Interface
 
 ---
 
-## Author
+## 👩‍💻 Author
 
-Eisha Naeem
+**Eisha Naeem**
 
 Computer Engineering Student
