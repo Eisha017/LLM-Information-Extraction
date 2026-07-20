@@ -207,7 +207,7 @@ The application automatically generates:
 ![Terminal Output](docs/Screenshots/extractionsummary.png)
 
 ### Project Structure
-![Terminal Output](docs/Screenshots/project structure.png)
+![Terminal Output](docs/Screenshots/projectstructure.png)
 
 ### Sample JSON Output
 ![Terminal Output](docs/Screenshots/opsamples.png)
