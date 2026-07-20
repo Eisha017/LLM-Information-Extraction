@@ -49,10 +49,6 @@ CLI workflow:
 3. Gemini extracts structured information
 4. JSON output is generated
 
-![Demo](docs/demo.mp4)
-
-
-
 # 📂 Project Structure
 
 ```text
