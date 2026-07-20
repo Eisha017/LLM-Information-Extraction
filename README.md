@@ -204,13 +204,13 @@ The application automatically generates:
 # 📸 Screenshots
 
 ### Terminal Output
-![Terminal Output](docs/Screenshots/extractionsummary.png)
+![Terminal Output](docs/screenshots/extractionsummary.png)
 
 ### Project Structure
-![Terminal Output](docs/Screenshots/projectstructure.png)
+![Terminal Output](docs/screenshots/projectstructure.png)
 
 ### Sample JSON Output
-![Terminal Output](docs/Screenshots/opsamples.png)
+![Terminal Output](docs/screenshots/opsamples.png)
 
 ---
 
