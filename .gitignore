@@ -1,3 +1,20 @@
+# Environment Variables
 .env
+
+# Python Cache
 __pycache__/
 *.pyc
+
+# Virtual Environment
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Output folders (optional)
+outputs/
+logs/

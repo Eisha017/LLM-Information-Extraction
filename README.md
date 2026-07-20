@@ -1,44 +1,35 @@
-# LLM Information Extraction using Prompt Engineering
+# 🤖 LLM Information Extraction using Prompt Engineering
 
-A Python application that extracts structured information from unstructured text using Google's Gemini Large Language Model (LLM).
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![Gemini](https://img.shields.io/badge/Google-Gemini-orange)
+![Prompt Engineering](https://img.shields.io/badge/Prompt-Engineering-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-This project demonstrates practical Prompt Engineering techniques including Zero-shot Prompting, Few-shot Prompting, Delimiters, and Deterministic Generation (Temperature = 0).
+## 📖 Overview
 
----
+This project extracts structured information from unstructured text using Google's Gemini Large Language Model (LLM).
 
-## Features
+The application demonstrates Prompt Engineering concepts by implementing both **Zero-shot Prompting** and **Few-shot Prompting** to convert free-form text into structured JSON output.
 
-- Extracts structured data from messy text
-- Zero-shot prompting
-- Few-shot prompting
-- Prompt comparison
-- JSON output
-- Supports multiple input files
-- Uses Gemini API
-- Saves extracted information automatically
+Users can select the prompting technique, provide an input text file, and receive extracted information in a standardized JSON format.
 
 ---
 
-## Technologies
+# ✨ Features
 
-- Python
-- Google Gemini API
-- Prompt Engineering
-- python-dotenv
-
----
-
-## Information Extracted
-
-- Name
-- Company
-- Job Title
-- Email Address
-- Phone Number
+- ✅ Zero-shot Prompting
+- ✅ Few-shot Prompting
+- ✅ Interactive CLI
+- ✅ Google Gemini API Integration
+- ✅ Structured JSON Output
+- ✅ Temperature = 0 for deterministic responses
+- ✅ Automatic Output File Generation
+- ✅ Execution Logging
+- ✅ Professional Folder Structure
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
 ```text
 LLM-Information-Extraction/
@@ -46,19 +37,50 @@ LLM-Information-Extraction/
 ├── app.py
 ├── prompt.py
 ├── fewshot_prompt.py
+├── sample_input.txt
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── .env.example
+│
 ├── samples/
+│   ├── sample1.txt
+│   ├── sample2.txt
+│   ├── sample3.txt
+│   ├── sample4.txt
+│   └── sample5.txt
+│
 ├── outputs/
+│
+├── logs/
+│
 └── docs/
 ```
 
 ---
 
-## How to Run
+# 🛠️ Technologies Used
+
+- Python
+- Google Gemini API
+- Prompt Engineering
+- JSON
+- python-dotenv
+
+---
+
+# 🚀 Installation
 
 Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Eisha017/LLM-Information-Extraction.git
+```
+
+Move into the project
+
+```bash
+cd LLM-Information-Extraction
 ```
 
 Install dependencies
@@ -67,11 +89,19 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Create a `.env`
+---
+
+# 🔑 Configure API Key
+
+Create a `.env` file.
 
 ```text
 GEMINI_API_KEY=YOUR_API_KEY
 ```
+
+---
+
+# ▶️ Running the Project
 
 Run
 
@@ -79,19 +109,17 @@ Run
 python app.py
 ```
 
-Enter the file name when prompted.
+The application will ask you to:
 
-Example
-
-```
-samples/sample1.txt
-```
+1. Select Prompt Technique
+2. Enter Input File
+3. Extract Information
 
 ---
 
-## Example Input
+# 📥 Example Input
 
-```
+```text
 Hello,
 
 My name is Sarah Johnson.
@@ -102,48 +130,112 @@ Email:
 sarah@gmail.com
 
 Phone:
-+1 555-111-2233
++1 555 111 2233
 ```
 
 ---
 
-## Example Output
+# 📤 Example Output
 
 ```json
 {
-    "name": "Sarah Johnson",
-    "company": "Google",
-    "job_title": "Software Engineer",
-    "email": "sarah@gmail.com",
-    "phone": "+1 555-111-2233"
+    "name":"Sarah Johnson",
+    "company":"Google",
+    "job_title":"Software Engineer",
+    "email":"sarah@gmail.com",
+    "phone":"+1 555 111 2233"
 }
 ```
 
 ---
 
-## Prompt Engineering Concepts
+# 🧠 Prompt Engineering Concepts Used
 
-- Zero-shot Prompting
-- Few-shot Prompting
-- Delimiters
-- Temperature = 0
-- Structured JSON Extraction
+## Zero-shot Prompting
 
----
+The model extracts information without seeing any examples.
 
-## Future Improvements
-
-- Batch processing
-- CSV export
-- PDF document extraction
-- Resume parsing
-- OCR integration
-- Web interface using Streamlit
+Used for general-purpose information extraction.
 
 ---
 
-## Author
+## Few-shot Prompting
 
-Eisha Naeem
+The model receives example inputs and outputs before processing the user's text.
+
+This improves consistency and extraction accuracy.
+
+---
+
+## Delimiters
+
+Triple hash delimiters (`###`) separate instructions from user input, making the prompt clearer and reducing ambiguity.
+
+---
+
+## Temperature = 0
+
+A temperature value of **0** ensures deterministic responses.
+
+Running the same prompt multiple times is more likely to produce consistent outputs.
+
+---
+
+# 📊 Output
+
+The application automatically generates:
+
+- JSON output files
+- Execution logs
+- Processing summary
+
+---
+
+# 📸 Screenshots
+
+### Terminal Output
+
+(Add screenshot here)
+
+---
+
+### Project Structure
+
+(Add screenshot here)
+
+---
+
+### Sample JSON Output
+
+(Add screenshot here)
+
+---
+
+# 🔮 Future Improvements
+
+- Streamlit Web Interface
+- Batch Processing
+- PDF Support
+- Resume Parsing
+- CSV Export
+- OCR Integration
+- Docker Deployment
+- REST API
+
+---
+
+# 👩‍💻 Author
+
+**Eisha Naeem**
 
 Computer Engineering Student
+
+GitHub:
+https://github.com/Eisha017
+
+LinkedIn:
+https://www.linkedin.com/in/eishaa-naeem
+
+---
+
+# ⭐ If you found this project useful, consider giving it a star.
